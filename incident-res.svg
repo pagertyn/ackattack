@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="316px" viewBox="0 0 320 316" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>incident-res</title>
+    <desc>Created with Sketch.</desc>
+    <g id="incident-res" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M246,79 C246,74.0294373 241.970563,70 237,70 L84,70 C79.0294373,70 75,74.0294373 75,79 L75,232 C75,236.970563 79.0294373,241 84,241 L237,241 C241.970563,241 246,236.970563 246,232 L246,79 Z" id="Rectangle" stroke="#979797" stroke-width="8"></path>
+        <path d="M216,112 L156.609864,199.256524 L216,112 Z" id="Line" stroke="#979797" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M154.826599,197.771507 L113.22764,156.172548 L154.826599,197.771507 Z" id="Line-Copy" stroke="#979797" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
+</svg>
