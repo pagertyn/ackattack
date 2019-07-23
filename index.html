@@ -5,12 +5,13 @@
    <title>Butterfly SVG Morph</title>
 </head>
 <body>
-    <svg id="clicky" width="640px" height="632px" viewBox="0 0 640 632" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <pre>click meeee</pre>
+    <svg id="clicky" width="320px" height="316px" viewBox="0 0 320 316" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
         <title>Status Transform</title>
         <desc>Fun experiment by Tyn</desc>
         <g id="incident-ack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <path id="box" d="M168.363961,58.5405845 C164.849242,55.0258659 159.150758,55.0258659 155.636039,58.5405845 L66.5405845,147.636039 C63.0258659,151.150758 63.0258659,156.849242 66.5405845,160.363961 L155.636039,249.459415 C159.150758,252.974134 164.849242,252.974134 168.363961,249.459415 L257.459415,160.363961 C260.974134,156.849242 260.974134,151.150758 257.459415,147.636039 L168.363961,58.5405845 Z" id="Rectangle" stroke="#f9b408" stroke-width="8"></path>
+            <path id="box" d="M168.363961,58.5405845 C164.849242,55.0258659 159.150758,55.0258659 155.636039,58.5405845 L66.5405845,147.636039 C63.0258659,151.150758 63.0258659,156.849242 66.5405845,160.363961 L155.636039,249.459415 C159.150758,252.974134 164.849242,252.974134 168.363961,249.459415 L257.459415,160.363961 C260.974134,156.849242 260.974134,151.150758 257.459415,147.636039 L168.363961,58.5405845 Z" id="Rectangle" stroke="#f9b408" stroke-width="8" fill="#ffffff"></path>
             <path id="long" d="M162,95 L162,178" id="Line" stroke="#f9b408" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
             <path id="point" d="M162,202.753906 L162,213.804688" id="Line-Copy" stroke="#f9b408" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"></path>
         </g>
@@ -43,9 +44,9 @@
             icon.on('click', function() {
                 if (morph01) {
                     //if acked, morph to resolve
-                    box.animate({d:"M246,79 C246,74.0294373 241.970563,70 237,70 L84,70 C79.0294373,70 75,74.0294373 75,79 L75,232 C75,236.970563 79.0294373,241 84,241 L237,241 C241.970563,241 246,236.970563 246,232 L246,79 Z", fill:"#ffffff", stroke:"#03a600"}, 500, mina.easein);
-                    long.animate({d:"M216,112 L156.609864,199.256524 L216,112 Z", fill:"#ffffff", stroke:"#03a600"}, 500, mina.easein);
-                    point.animate({d:"M154.826599,197.771507 L113.22764,156.172548 L154.826599,197.771507 Z", fill:"#fff", stroke:"#03a600"}, 500, mina.easein);
+                    box.animate({d:"M246,79 C246,74.0294373 241.970563,70 237,70 L84,70 C79.0294373,70 75,74.0294373 75,79 L75,232 C75,236.970563 79.0294373,241 84,241 L237,241 C241.970563,241 246,236.970563 246,232 L246,79 Z", fill:"#ffffff", stroke:"#03a600"}, 150, mina.easein);
+                    long.animate({d:"M216,112 L156.609864,199.256524 L216,112 Z", fill:"#ffffff", stroke:"#03a600"}, 150, mina.easein);
+                    point.animate({d:"M154.826599,197.771507 L113.22764,156.172548 L154.826599,197.771507 Z", fill:"#fff", stroke:"#03a600"}, 150, mina.easein);
                     morph01 = false;
                     morph02 = true;
                 } else if (morph02) {
